@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(CS)
+project(SIMS)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -8,6 +8,9 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(SIMS_TARGET sims)
 set(SIMS_SOURCES
+    Interface.cpp
+    Staff.cpp
+    Student.cpp
     main.cpp
 )
 
