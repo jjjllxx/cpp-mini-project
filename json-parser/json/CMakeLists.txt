@@ -1,0 +1,3 @@
+list(APPEND JP_SOURCES
+${CMAKE_CURRENT_LIST_DIR}/json.cpp
+)
